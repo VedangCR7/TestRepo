@@ -1,0 +1,26 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+ErrorDocument 404 /404.html
+
+#Swapnil
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^foodnai\.com [NC]
+RewriteRule ^qrcode/(.*)$ /admin/qrcode/$1 [R=301,NC,L]
+RewriteRule ^qrcode/(.*)$ /admin/qrcode/$1/$2 [R=301,NC,L]
+RewriteRule ^tbl_qrcode/(.*)$ /admin/qrcode/$1/$2 [R=301,NC,L]
+RewriteRule ^admin/tbl_qrcode/(.*)$ /admin/qrcode/$1/$2 [R=301,NC,L]
+RewriteRule ^restaurants/(.*)/(.*)$ /restaurant_page.php?restaurant_id=$2 [L]
+
+#RewriteRule ^(.*)$ http://3.6.145.242/$1 [L,R=301]
+
+#Security Headers
+ 
+  Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "same-origin"

@@ -1,0 +1,102 @@
+.nav-text{
+
+  padding: 5px 20px 5px 20px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  margin: 4px 2px;
+
+   
+}
+
+.btn {
+
+  background-color:#48a24e; /* Green */
+
+  border: none;
+
+  color: white;
+
+  padding: 5px 20px 5px 20px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 16px;
+
+  margin: 4px 2px;
+
+  cursor: pointer;
+
+  border-radius: 50px;
+
+  width: 170px;
+
+}
+.btndemo
+{
+  border-radius: 50px;
+
+  /* margin-left: 15px; */
+
+  padding: 5px 25px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 600;
+
+  background-color: #e27272;
+
+  margin-left:  30px;
+}
+
+.btncontact
+{
+  border-radius: 50px;
+
+  /* margin-left: 15px; */
+
+  padding: 5px 25px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 600;
+
+  
+  margin-left:  30px;
+}
+
+.btnlogin
+{
+  border-radius: 50px;
+
+  /* margin-left: 15px; */
+
+  padding: 5px 25px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 600;
+
+  
+
+  margin-left:  30px;
+}
+
+.logo{
+  height: 65px;
+    width: 151px;
+    float: left;
+    margin-left: 50px;
+}

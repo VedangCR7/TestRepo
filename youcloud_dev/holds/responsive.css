@@ -1,0 +1,1111 @@
+	@media screen and (max-width: 768px) {
+
+		.mob-menu{
+
+			position: absolute;
+
+			top: 20px;
+
+			left:20px;
+
+			height: 35px;
+
+			width: 35px;
+
+			z-index: 9999;
+
+			background: #fff;
+
+			cursor: pointer;
+
+		}
+
+		.mob-menu span{
+
+			position: absolute;
+
+			height: 2px;
+
+			width: 30px;
+
+			background: #333;
+
+			top: 50%;
+
+			transition: all 0.3s linear;
+
+		}
+
+		.mob-menu span::after{
+
+			content: '';
+
+			position: absolute;
+
+			height: 2px;
+
+			width: 35px;
+
+			background: #333;
+
+			top:10px;
+
+			transition: all 0.3s linear;
+
+		}
+
+		.mob-menu span::before{
+
+			content: '';
+
+			position: absolute;
+
+			height: 2px;
+
+			width: 35px;
+
+			background: #333;
+
+			top:-10px;
+
+			transition: all 0.3s linear;
+
+		}
+
+		
+
+
+
+		.open_menu .navigation-bar ul li{
+
+			visibility: visible;
+
+		}
+
+		.open_menu .mob-menu span{
+
+			width: 0;
+
+		}
+
+		.open_menu .mob-menu span::after{
+
+			transform: rotate(45deg);
+
+			top: 0;
+
+		}
+
+		.open_menu .mob-menu span::before{
+
+			transform: rotate(-45deg);
+
+			top: 0;
+
+		}
+
+
+
+		#navbar {
+
+			overflow: unset;
+
+		}
+
+		.company-logo {
+
+			float: right;
+
+			padding-left: unset;
+
+		}
+
+		.nav-menu{
+
+			display: none;
+
+			float: left;
+
+			opacity: 0;
+
+			margin-left: 56px;
+
+			padding-right: unset;
+
+			position: absolute;
+
+		}
+
+		.nav-menu li {
+
+			float: none !important;
+
+			z-index: 9999;
+
+			position: absolute;
+
+			display: block;
+
+			color: black;
+
+			text-align: center;
+
+			padding: unset !important;
+
+			position: relative;
+
+			text-decoration: none;
+
+			font-size: 17px;
+
+		}
+
+		.contact-us-button, .login-button, .live-demo-buttton{
+
+			margin-top: 5px;
+
+		}
+
+		.allergen {
+
+			word-wrap: break-word;
+
+		}
+
+		.market-content {
+
+			padding-top: 50px;
+
+			padding-left: 15px !important;
+
+		}
+
+		.brands{
+
+			margin-left: unset !important;
+
+		}
+
+		.brands img{
+
+			padding-left:0px !important;
+			padding-bottom: 20px;
+		}
+
+		.food-nutritional input{
+
+			width: 87%;
+
+		}
+
+		.tour-content{
+
+			padding: 0 10px;
+
+			height: 180px;
+
+			width: 375px;
+
+		}
+
+		.work-growth{
+
+			padding: 0 10px 0 10px;
+
+		}
+
+		.work-growth h3{
+
+			padding-top: 20px;
+
+		}
+
+		.healthy-food-text{
+
+			padding-top: unset;
+
+		}
+
+		.online-info,.healthy-food,.business-management,.content-text,.content-info{
+
+			padding: 0 12px 20px !important;
+
+			text-align: justify;
+
+		}
+
+		.online-info h3{
+
+			text-align: inherit !important;
+
+		}
+
+		.service-content{
+
+			padding: 0 50px 20px !important;
+
+		}
+
+		.service-info{
+
+			width: 275px;
+
+			height: auto;
+
+			margin-bottom: 20px;
+
+		}
+
+		.service-content img {
+
+			margin-left: 90px;
+
+		}
+
+		.service-content button{
+
+			margin-left: 70px;
+
+			margin-bottom: 20px;
+
+		}
+
+		.business-content img{
+
+			width: 100%;
+
+		}
+
+		.panel-bg-color .panel{
+
+			margin: unset;
+
+		}
+
+		.tour-button{
+
+			margin-left: 75px;
+
+		}
+
+		.content-text .content{
+
+			width: unset;
+
+		}
+
+		.business-content h5 {
+
+			width: 100%;
+
+		}
+
+		.footer-element.row,.service-content.row,.business-content.row,.footer-content.row,.content-text.row,.business-management.row,.healthy-food.row,.healthy-food.row,.online-info.row,.brands.row{
+
+			margin-right: unset;
+
+			margin-left: unset;
+
+		}
+
+		.dropdown-content {
+
+			position: relative !important;
+
+		  }
+
+
+
+	/* ***************************************End Of index***************************************************************************************/
+
+	/* ****************************************************Start of Why-foodnai Page*************************************************************/
+
+	.navbar, .header-content.row,.selling-content.row,.individual-user.row,.business-supported.row,.business.row,.amazing-features.row, .feature-content.row, .integrate-need.row, .solution-content.row, .ordering-card.row,.ordering.row{
+
+		/* margin-left: unset !important; */
+
+		margin-right: unset !important;
+
+	}
+
+	.footer-info input{
+
+		width:79%;
+
+		/* margin-left: 35px; */
+
+	}
+
+	.foodnai-content input{
+
+		width: 87%;
+
+	}
+
+	.header-content img {
+
+		width: 102%;
+
+		height: auto;
+
+		padding-right: 48px;
+
+	}
+
+	.business-content span{
+
+		margin: unset;
+
+	}
+
+	.all-features{
+
+		margin-left: 20px;
+
+	}
+
+	.selling-content h3{
+
+		margin-top: 32px;
+
+		margin-bottom: 11px;
+
+		padding-left: 12px;
+
+	}
+
+	.selling-content h4{
+
+		padding-left: 12px;
+
+	}
+
+	.customer-content h3{
+
+		padding-left: 10px;
+
+	}
+
+	/* .brands img{
+
+		padding-left: 120px !important;
+
+	} */
+
+	.customer-content h4{
+
+		padding-top: unset;
+
+	}
+
+	.button3{
+
+		margin-left: 100px;
+
+		margin-bottom: 10px;
+
+	}
+
+	.business-supported h3{
+
+		padding-left: 45px;
+
+	}
+
+	.business-supported h4{
+
+		padding-left: 10px;
+
+		padding-top: 18px;
+
+	}
+
+	.work-online-content h3{
+
+		margin-left: 23px !important;
+
+	}
+
+	.business-work-content1 {
+
+		margin-right: 70px;
+
+	}
+
+	.business {
+
+		margin-left: 60px !important;
+
+	}
+
+	.business img{
+
+	padding-top: unset !important;
+
+	margin-left: unset !important;
+
+	}
+
+	.amazing-features h3{
+
+		padding-top:unset;
+
+	}
+
+	.amazing-features h4{
+
+	padding-top: 13px;
+
+	padding-left: 10px;
+
+	}
+
+	.amazing-features img{
+
+		width: 91%;
+
+		height: auto;
+
+		margin-left: 25px;
+
+	}
+
+	.integrate-content h4{
+
+		padding-left: 12px;
+
+	}
+
+	.integrate-need img{
+
+		width:100%;
+
+		height: auto;
+
+	}
+
+	.integrate-need{
+
+		padding-left: 20px;;
+
+		text-align: justify
+
+	}
+
+	.ordering img{
+
+		width: 100%;
+
+		height: auto;
+
+		margin-left: unset;
+
+		padding-top: 20px;
+
+		padding-bottom: 20px;
+
+	}
+
+	.ordering-card {
+
+
+
+		margin-left: 48px !important;
+
+	}
+
+	.ordering-info{
+
+		margin-bottom: 20px;
+
+	}
+
+	/* *************************************************************End of Whyfoodnai***************************************************************/
+
+	/* *************************************************************Start of Product PAge*********************************************************** */
+
+	.demo-button{
+
+		margin-left: 50px;
+
+	}
+
+	
+
+	.dashboard.row{
+
+		margin-right: unset;
+
+	}
+
+	.dashboard h5{
+
+		padding-left: 10px;
+
+	}
+
+	/* *************************************************************End of Product Page******************************************************************* */
+
+	/* *************************************************************Start of All Feature page************************************************************ */
+
+	.management-card.row, .foodnai-platform.row, .analytics-info.row, .management1-info.row, .foodnai-app.row, .new-technology.row, .Capabilities.row, .icons.row{
+
+		margin-right: unset !important;
+
+		/* margin-left: unset; */
+
+
+
+	}
+
+	.new-technology input{
+
+		width: 75%;
+
+	}
+
+	.new-technology h4{
+
+		margin-left: 35px;
+
+	}
+
+	.new-technology h5{
+
+		margin-left: 25px;
+
+	}
+
+	.management-card {
+
+
+
+		margin-left: 45px !important;
+
+	}
+
+	.management-info{
+
+		margin-bottom: 20px;
+
+	}
+
+	.foodnai-platform h4 {
+
+		padding-top: unset;
+
+	}
+
+	.power-up{
+
+		padding-left: 8px;
+
+	}
+
+	.analytics h4{
+
+		margin-left: unset;
+
+	}
+
+	.analytics-info{
+
+		margin-left: unset !important;
+
+	}
+
+	.management h4{
+
+		margin-left: unset;
+
+	}
+
+	.management1-info {
+
+		margin-left: unset !important;
+
+	}
+
+	.start-foodnai input{
+
+		width: 72%;
+
+	}
+
+	/* ***************************************************************ENd OF All Feature Page *********************************************** */
+
+	/* ***************************************************************Satrt of Restaurant Page************************************************ */
+
+	.bg-shop h5{
+
+		margin-left: 8px;
+
+	}
+
+	.bg-shop h6{
+
+		margin-left: 25px;
+
+	}
+
+	.bg-shop input{
+
+		width: 75%;
+
+	}
+
+	.bg-shop img{
+
+		padding-top: 55px;
+
+	}
+
+	.sandwich-shop img{
+
+		padding-left: 20px;
+
+	}
+
+	.consumer img {
+
+		width: 100%;
+
+		height: auto;
+
+	}
+
+	.consumer h4{
+
+		padding-top: unset;
+
+	}
+
+	.consumer h5{
+
+		margin-left: 5px;
+
+	}
+
+	.consumer h6{
+
+		margin-left: 5px;
+
+	}
+
+	.recipe-card{
+
+		margin-left: 36px !important;
+
+	}
+
+	.recipe-info{
+
+		width: 300px !important;
+
+		height: 225px !important;
+
+		margin-bottom: 20px;
+
+	}
+
+	.app h4{
+
+		padding-left: 10px;
+
+		text-align: justify;
+
+	}
+
+	.app h5{
+
+		padding-left: 10px;
+
+		text-align: justify;
+
+	}
+
+	.management-control p{
+
+		font-size: 16px !important;
+
+		padding-left: 10px;
+
+	}
+
+	.sandwich-shop h4,h5,h6{
+
+		padding-left: 25px;
+
+	}
+
+	/* ****************************************************************Start of REstaurant Page************************************************************** */
+
+	.platform.row, .website-service.row, .recipe-card.row, .app.row, .management-control.row, .web.row, .bg-shop.row, .sandwich-shop.row, .consumer.row, .nutritional-website.row, .franchise-info.row{
+
+		margin-right: unset;
+
+	}
+
+
+
+	/********************************************************************Start of Restaurant-chain page*********************************************  */
+
+	.website-service img {
+
+		width: 100%;
+
+		height: auto;
+
+	}
+
+	.website-service input{
+
+		margin-left: 60px;
+
+		width: 72%;
+
+	}
+
+	.text-content{
+
+		padding-left: unset !important;
+
+		padding-top: unset !important;
+
+	}
+
+	.franchise-info h4 {
+
+		padding-top: unset;
+
+		margin-left: 25px;
+
+	}
+
+	.franchise-info h6{
+
+		margin-left: unset !important;
+
+	}
+
+	.bg-shop h6 {
+
+		padding-top: 40px;
+
+	}
+
+	.website-service h4{
+
+		margin-left: 35px;
+
+	}
+
+	/* .contact-button{
+
+		margin-left: 60px;
+
+	} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* *****************************************************************Start of School page****************************************************** */
+
+	.schl-web.row, .styled.row{
+
+		margin-right: unset;
+
+	}
+
+	.schl-web h4{
+
+		margin-left: 25px;
+
+	}
+
+	.styled img{
+
+		width: 100%;
+
+		height: auto;
+
+	}
+
+
+
+	/* ******************************************************************Start of Nutrition Page******************************************************* */
+
+	.nutrition.row, .individual-family.row, .consumer-info.row, .platform-info.row{
+
+		margin-right: unset;
+
+	}
+
+	.nutrition input{
+
+		width:75%;
+
+	}
+
+	.consumer-info h4{
+
+		margin-top: unset;
+
+	}
+
+	.nutrition h5{
+
+		margin-left: 10px;
+
+	}
+
+	.individual-family h4{
+
+		padding-left: 25px;
+
+	}
+
+	.web p{
+
+		padding-top: unset;
+
+	}
+
+	.consumer-info img{
+
+		width: 100%;
+
+		height: auto;
+
+	}
+
+	/* ************************************************************** **Start of About us page ********************************************8 */
+
+	.year-info.row, .affordable-price.row, .team-info.row, .company.row{
+
+		margin-right: unset;
+
+	}
+
+	.life-easy h5{
+
+		margin-left: unset;
+
+		text-align: unset;
+
+	}
+
+	.year-info h5{
+
+		margin-left: unset;
+
+		padding-top: 40px;
+
+	}
+
+	.year-info h6{
+
+		margin-left: unset;
+
+		padding-bottom: unset;
+
+	}
+
+	.affordable-price h4{
+
+		margin-left: 25px;
+
+	}
+
+	.company h5{
+
+		margin-left: 35px;
+
+	}
+
+
+
+	/* ***************************************************************Start of Privacy Ploicy*********************************************** */
+
+	.privacy-header.row{
+
+		margin-right: unset;
+
+	}
+
+	.privacy-header img {
+
+		width: 100% !important;
+
+	}
+
+	.privacy-header h4{
+
+		padding-top: 70px;
+
+		margin-left: 75px;
+
+	}
+
+	
+
+	/* *************************************************************Start of Terms-condotion *****************************************************8 */
+
+	.term-header.row{
+
+		margin-right: unset;
+
+	}
+
+	.term-header img {
+
+		width: 100% !important;
+
+	}
+
+	.term-header h4{
+
+		padding-top: unset;
+
+	}
+
+
+
+
+
+	/* ****************************************************************Start of Contact-us **********************************************************/
+
+	.proj.row{
+
+		margin-right: unset;
+
+	}
+
+	.proj h4{
+
+		padding-top: 130px;
+
+	}
+
+	.porj h5{
+
+		margin-left: 10px !important;
+
+	}
+
+	/* ***********************************************************************End of Contact-us page************************************* */
+
+	/******************************************Start of Live-demo page*******************************************************************  */
+
+	.demos.row, .foodnai-restaurant1.row, .foodnai-burger.row, .foodnai-school.row{
+
+		margin-right: unset;
+
+	}
+
+	.demos h4{
+
+		padding-top: 160px;
+
+	}
+
+	.look-demo h4{
+
+		margin-left: unset;
+
+	}
+
+	.look-demo h5{
+
+		margin-left: unset;
+
+	}
+
+	.look-demo h6{
+
+		margin-left: unset;
+
+	}
+
+	.foodnai-restaurant1 h5 
+
+	{
+
+		margin-left: 35px;
+
+	}
+
+	.foodnai-restaurant1 img, .foodnai-burger img, .foodnai-school img{
+
+		margin-left: 40px;
+
+	}
+
+	.foodnai-burger h5, .foodnai-school h5{
+
+		margin-left: 35px;
+
+	}
+
+	.foodnai-school h4{
+
+		padding-top: unset;
+
+	}
+
+	.contact-button3{
+
+		margin-left: unset;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

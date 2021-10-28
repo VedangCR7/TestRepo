@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZJNB18KS2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8ZJNB18KS2');
+    </script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FoodNAI</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='responsive.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='overlaystyle.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/FoodNAI short Logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./controller.js"></script>
+
+    
+</head>
+<body style="overflow-x: hidden;">
+    <div id="navbar" class="navbar">
+        <ul class="company-logo"><li><a href="./index.html"><img src="./assets/img/FoodNAI Logo.png"></a></li></ul>
+        <div class="mob-menu"><span></span></div>
+        <ul class="nav-menu" id="myTopnav">
+            <li><a href="./why-foodnai.html">Why FoodNAI</a></li>
+            <!-- <li><a href="javascript:void(0)">Solutions</a></li> -->
+            <li class="dropdown">
+                    <a class="dropbtn">Solutions 
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="./product.html">Products</a>
+                        <a href="./all-feature.html">All Features</a>
+                        <a href="restaurant-chain.html">Restaurant chains</a>
+                        <a href="restaurant.html">Restaurant</a>
+                        <a href="./burger-shop.html">Burger & Sandwich shop</a>
+                        <a href="school.html">School & Universities</a>
+                        <a href="./nutrition.html">Nutrition consultant</a>
+                    </div>
+                </li> 
+            <li><button class="button live-demo-button" onclick="live_demo()">Live Demos</button></li>
+            <li><button class="button button1" onclick="contact_us()">Contact Us</button></li>
+            <li><button class="button login-button" onclick="login()">Login</button></li>
+        </ul>
+    </div>
+    <div class="about-image">
+        <img src="./assets/img/about-us-1.png">
+    </div>
+    <div class="life-easy">
+        <h4>Nutritional platform made life easy to choose your food.</h4>
+        <h5>FoodNAI is the first to bring the technology to create automatically custom platform for nutritional and allergen information provider for healthy life.</h5>
+        <h5>The office is filled with natural light and our team is full of happy employees who are working hard to create the future of food service technology. We believe that everyone deserves to work in a fulfilling, respectful, and fun culture — and we work hard to provide that every day!</h5>
+    </div>
+    <div class="row year-info text-center">
+        <div class="col-lg-3">
+            <h5>4+</h5>
+            <h6>years of experience</h6>
+        </div>
+        <div class="col-lg-3">
+            <h5>25</h5>
+            <h6>members in team</h6>
+        </div>
+        <div class="col-lg-3">
+            <h5>100k+</h5>
+            <h6> Ingredients</h6>
+        </div>
+        <div class="col-lg-3">
+            <h5>30+</h5>
+            <h6>experts foodlab</h6>
+        </div>
+    </div>
+    <div class="row affordable-price">
+        <div class="col-lg-6">
+            <img src="./assets/img/about-us-2.png">
+        </div>
+        <div class="col-lg-6">
+            <h4>FoodNAI gives everyone a platform to sharing nutritional value of food at affordable prices.</h4>
+            <h5>As the expectations of consumers shifts, it has become more important than ever to find true partners who can innovate on your behalf. We can create the delightfully convenient, personalized, engaging, digital experience that your customers expect. </h5>
+        </div>
+    </div>
+
+    <div class="team text-center">
+        <h4>Our Team</h4>
+        <h5>Integrated with over 35 very dedicated and specialized people </h5>
+    </div>
+
+    <div class="row team-info text-center">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2">
+            <img src="./assets/img/support-1.png">
+            <h5>Support Team </h5>
+        </div>
+        <div class="col-lg-2">
+            <img src="./assets/img/salest.png">
+            <h5>Sales Team </h5>
+        </div>
+        <div class="col-lg-2">
+            <img src="./assets/img/consult.png">
+            <h5>Consulting & Projects Team </h5>
+        </div>
+        <div class="col-lg-2">
+            <img src="./assets/img/creative-team.jpg">
+            <h5>Creative Team</h5>
+        </div>
+        <div class="col-lg-2">
+            <img src="./assets/img/product.png">
+            <h5>Product Team</h5>
+         </div>
+         <div class="col-lg-1"></div>
+    </div>
+
+    <div class="row company">
+            <div class="col-lg-6">
+                <img src="./assets/img/about-us-3.png">
+            </div>
+            <div class="col-lg-6">
+                <h4>Company Purpose</h4>
+                <h5><strong>✔︎&nbsp; </strong>The right focus on customers need.</h5>
+                <h5><strong>✔︎&nbsp; </strong>The right reasons of customers health.</h5>
+                <h5><strong>✔︎&nbsp; </strong>Your trusted partner for serve better.</h5>
+                <h5><strong>✔︎&nbsp; </strong>Increase business sales and control.</h5>
+            </div>
+    </div>
+    <div class="panel-bg-color food-nutritional">
+            <div class="container">
+                    <div class="panel panel-default">
+                        <div class="panel-body text-center">
+                        <h2>Start with your FoodNAI platform today</h3>
+                        <h3> Book a meeting with us and we are happy to help you get started.</h3>
+                        <h4>Enter your email and book a meeting with our agents for a free consultation.</h4>
+                        <input type="email" id="email" name="email" placeholder="Enter your email"></br>
+                        <button class="button contact-button">Contact FoodNAI</button>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <div class="row footer-element">
+            <div class="col-lg-3">
+                <h4>FoodNAI</h4>
+                <h5><a href="./about-us.html">About US</a></h5>
+                <h5><a href="./privacy.html">Privacy Policy</a></h5>
+                <h5><a href="./terms-conditions.html">Terms and conditions</a></h5>
+                <!-- <h5><a href="./blogs.html">Blogs</a></h5> -->
+                <!-- <h5><a href="./customer-success.html">Customer Success</a></h5> -->
+				<h4>Partners</h4>
+				<img src="./assets/img/foodnai_partnernw.png" style="height:71px;margin:0% 0% 2% 25%; ">
+            </div>
+            <div class="col-lg-3">
+                <h4>Products</h4>
+                <h5><a href="./restaurant-chain.html">Restaurant chains</a></h5>
+                <h5><a href="./restaurant.html">Restaurants</a></h5>
+                <h5><a href="./burger-shop.html">Burger & Sandwich</a></h5>
+                <h5><a href="./school.html">School Universities</a></h5>
+                <h5><a href="./nutrition.html">Nutrition Consultant</a></h5>
+            </div>
+            <div class="col-lg-3">
+                <h4>Features</h4>
+                <h5><a href="./all-feature.html">All Features</a></h5>
+                <h5><a href="./product.html">Products</a></h5>
+                <h5><a href="./why-foodnai.html">Why FoodNAI</a></h5>
+                <h4>Sales Area</h4>
+                <h5><a href="./contact-us.html">Contact</a></h5>
+            </div>
+            <div class="col-lg-3 doc-element">
+                <h4>Documentation</h4>
+                <h5><a href="./user-guide.html">User guide</a></h5>
+                <!-- <h5><a href="./documentation.html">FoodNAI API Documentation</a></h5> -->
+                <h4>Our Social Media Presence</h4>
+                <a onclick="onSocialMedia(this)"><img value="facebook" src="./assets/img/fb.png"></a>
+                <a onclick="onSocialMedia(this)"><img  value="youtube" src="./assets/img/youtube.png"></a>
+                <a onclick="onSocialMedia(this)"><img value="linkedin" src="./assets/img/linkedin.png"></a>
+                <a onclick="onSocialMedia(this)"><img value="twitter" src="./assets/img/twitter.png"></a>
+                <a onclick="onSocialMedia(this)"><img value= "skype"  src="./assets/img/skype.png"></a>
+                <a onclick="onSocialMedia(this)"><img value= "instagram" src="./assets/img/instagram.png"></a>
+            </div>
+        </div>
+
+        <div class="foodnai-footer text-center" >
+                <h5>Powered by <a href="./index.html">FoodNAI</a>: the leading provider of digital menu and food nutrition technology.
+                        © 2020 FoodNAI</h5>
+        </div>
+
+        <script>
+                jQuery('.mob-menu').click(function(){
+                    jQuery('body').toggleClass('open_menu');
+                    var bodyCls=jQuery("body").attr("class");
+                    if(bodyCls == "open_menu"){
+                       jQuery(".nav-menu").css("opacity",1);
+                       jQuery(".nav-menu").css("display","block");
+                       jQuery(".navbar").css("padding-bottom",215);
+                    }
+                    else
+                    {
+                       jQuery(".nav-menu").css("opacity",0);
+                       jQuery(".nav-menu").css("display","none");
+                       jQuery(".navbar").css("padding-bottom","unset");
+                    }
+                    
+               });
+        </script>
+</body>
+</html>

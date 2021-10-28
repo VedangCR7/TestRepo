@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZJNB18KS2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-8ZJNB18KS2');
+        </script>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>FoodNAI</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='responsive.css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="./assets/img/FoodNAI short Logo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="./controller.js"></script>
+
+    </head>
+    <body>
+        <div id="navbar" class="navbar">
+            <ul class="company-logo"><li><a href="./index.html"><img src="./assets/img/FoodNAI Logo.png"></a></li></ul>
+            <div class="mob-menu"><span></span></div>
+            <ul class="nav-menu" id="myTopnav">
+                <li><a href="./why-foodnai.html" role="menuitem">Why FoodNAI</a></li>
+                <!-- <li><a href="javascript:void(0)">Solutions</a></li> -->
+                <li class="dropdown">
+                        <a class="dropbtn">Solutions 
+                          <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown-content">
+                                <a href="./product.html">Products</a>
+                                <a href="./all-feature.html">All Features</a>
+                                <a href="restaurant-chain.html">Restaurant chains</a>
+                                <a href="restaurant.html">Restaurant</a>
+                                <a href="./burger-shop.html">Burger & Sandwich shop</a>
+                                <a href="school.html">School & Universities</a>
+                                <a href="./nutrition.html">Nutrition consultant</a>
+                        </div>
+                </li> 
+            <li><button class="button live-demo-button" onclick="live_demo()">Live Demos</button></li>
+            <li><button class="button button1" onclick="contact_us()">Contact Us</button></li>
+            <li><button class="button login-button" onclick="login()">Login</button></li>
+            </ul>
+        </div>
+        <div class="row header-content">
+        <div class="col-lg-5 foodnai-content">
+            <strong><span> Why FoodNAI? </span></strong>
+            <h2><span>Simple! New technology, excellent information, and lovely customer service.</span></h2>
+            <h5>Questions? Talk to our sales experts.*</h5>
+            <input type="email" id="email1" name="email" pattern=".+@globex.com" placeholder="Enter your email"></br>
+            <button class="button submit-button" onclick="submit()">Submit</button>
+        </div>
+        <div class="col-lg-7">
+            <img src="./assets/img/wf-pg1.png">
+        </div>
+    </div>
+    <div class="business-content text-center">
+        <h4>Empower your business.</h4>
+        <span>Use all of the nutritional information for your customers & power-ups for your business.</span>
+    </div>
+    <div class="row feature-content">
+        <div class="col-lg-2">
+            <h4>Real time information</h4>
+            <img src="./assets/img/real-time.png">
+        </div>
+        <div class="col-lg-2">
+            <h4>Allergen Information</h4>
+            <img src="./assets/img/allergen.png">
+        </div>
+        <div class="col-lg-2">
+            <h4> User App</h4>
+            <img src="./assets/img/user app.png">
+        </div>
+        <div class="col-lg-2">
+            <h4>Restaurant portal</h4>
+            <img src="./assets/img/restaurant-admin.png">
+        </div>
+        <div class="col-lg-2">
+            <h4>School portal</h4>
+            <img src="./assets/img/school 1.png">
+        </div>
+        <div class="col-lg-2">
+            <h4>Individual portal</h4>
+            <img src="./assets/img/individual.png">
+        </div>
+    </div>
+    <div class="all-features">
+        <h4><a  href="./all-feature.html">Explore more Features & Power Ups →</a></h4>
+    </div>
+    <div class="row selling-content">
+        <div class="col-lg-6">
+            <img src="./assets/img/home-pg5.png">
+        </div>
+        
+        <div class="col-lg-5">
+            <h3>Giving everyone platform to show how healthy food they provide at affordable prices.</h3>
+            <h4>With customers all around the world, we make sure to cover every ingredients, nutritional and allergen information details to available from platform that customers looking for to engage with food provide by you and help to grow your business.
+            </h4>
+        </div>
+    </div>
+
+    <div class="customer-content">
+        <h3>We keep on working until you grow as one of trusted brand for your customers.</h3>
+        <p>More customers will visit every day, join us and you can be the next favourite brand.</p>
+        <div class="row brands1 text-center">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2">
+                <img src="./assets/img/zerogravity.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="./assets/img/dacalories.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="./assets/img/gayatrree.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="./assets/img/jojoto.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="./assets/img/kundan.png">
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row brands1 text-center">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2">
+                <img src="./assets/img/sentosa.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="./assets/img/sheetal.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="./assets/img/shruti.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="./assets/img/townhall.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="./assets/img/trushna.png">
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <h4>Nutritional Platform specializes in the following four  types: Select yours and explore its aspect</h4>
+    </div>
+
+    <div class="row individual-user">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-2">
+            <button class="button button3" onclick="user()">Individual Users</button>
+        </div>
+        <div class="col-lg-2">
+            <button class="button button3" onclick="restaurant()">Individual Restaurant</button>
+        </div>
+        <div class="col-lg-2">
+            <button class="button button3 " onclick="resta_chain()">Restaurant Chain</button>
+        </div>
+        <div class="col-lg-2">
+            <button class="button button3" onclick="schl()">Shchool & University</button>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+
+    <div class="row business-supported">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5">
+                <h3>All business supported.</h3> 
+                <h4>Whether you are school, restaurant, individual user, restaurant chain or any kind of food company, we provide platform being in the user satisfaction world and to stay in business.</h4>
+                <h4>Keep growing your business; this solution is 100% helping for you.</h4>
+            </div>
+            <div class="col-lg-5">
+                <img src="./assets/img/wf-pg3.png">
+                </div>
+            <div class="col-lg-1"></div>
+    </div>
+    <div class="work-online-content">
+    <h3>Learn how this work for your business.</h3>
+    </div>
+    <div class="row business">
+        <div class="col-lg-6">
+            <div class="business-work-content1 content-hover1">
+                    <h4>Add recipe through platform</h4>
+                    <h5>add recipe, with ingredients and quantity through portal easily.
+                    Predefined ingredients available for helping you to add your data easily. 
+                    </h5>
+                    <h5>Provide the easiest way to add your recipe, ingredients with number of units for selection.</h5>
+                    <h5>Through auto complete word feature just write one or two letter and get the list of matching ingredients list for selection.</h5>
+            </div>
+            <div class="business-work-content1 content-hover1">
+                    <h4>Nutritional and Allergen information.</h4>
+                    <h5>After adding the recipe, platform immediate display all the nutritional and allergen information on the platform itself.</h5>
+                    <h5>Get all the nutritional information such as protein, fat, carbon, vitamin and more instantly. </h5>
+                    <h5>People will know the food what they are eating.</h5>
+            </div>
+            <div class="business-work-content1 content-hover1">
+                    <h4>Display information on website and mobile app.</h4>
+                    <h5>If you have your own website and mobile app, we provide our API which connects your website to display all nutritional allergen information of your recipe.</h5>
+                    <h5>We can also set up this for you on your website.</h5>
+                    <h5>If you are looking for mobile app, we will help you to make your own mobile app with your name having all nutritional information on touch to go.</h5>
+            </div>
+            
+        </div>
+        <div class="col-lg-6 text-center">
+                <img src="./assets/img/mob-wf-1.png">
+        </div>
+    </div>
+
+       <div class="row amazing-features">
+       <div class="col-lg-6">
+           <h3>Take a look into amazing features</h3>
+           <h4>Take a look at this quick video and learn how  the platform is work for your business  growth.</h4>
+       </div>
+       <div class="col-lg-6">
+           <img src="./assets/img/video play image.png" onclick="playVideo()">
+       </div>
+   </div>
+
+   <div class="integrate-content">
+       <h4>Integrate with any Platform, website or third party App easily through our secure API.</h4>
+       <h5>Automate and innovate processes with technology for your business.</h5>
+   </div>
+
+   <div id="restaurantPlayer" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeVideo()">&times;</a>
+        <div class="overlay-content">
+            <video width="90%" height="75%" id="restaurantVideo" controls>
+                <source src="./assets/videos/FoodNAI Restaurant.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+   <div class="row integrate-need">
+       <div class="col-lg-6">
+           <img src="./assets/img/your imagination.png">
+       </div>
+       <div class="col-lg-6 integrate-need">
+           <h4>Integrate as much as need</h4>
+           <h5>Use API for your existing website and mobile app.</h5>
+           <h5>Don't Have Existing App or Team?</h5>
+           <h5>No Worries, create with us, we are prepared with a full specialized development team that will help you create any functionality with custom work.</h5>
+           <h5>Our Experience team will help you to make webpage or mobile app according to your need.</h5>
+       </div>
+   </div>
+
+   <div class="row solution-content">
+       <div class="col-lg-6">
+           <h4>Out of the Box Solution</h4>
+           <h5>Please take a look at our models and find out your perfect fit.</h5>
+            <h5>Feel free to go around with the specifications we have ready for you.</h5>
+       </div>
+       <div class="col-lg-6">
+           <img src="./assets/img/mob-wf-2.png">
+       </div>
+   </div>
+
+   <div class="perfect-solution-content">
+        <h3><strong>All of our solution are in perfect sync by default</strong></h3>
+        <h5>All of our products are connected to provide instant information and give the best customer experience of all.</h5>
+    </div>
+    
+    <div class="row ordering ">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            <img src="./assets/img/mob-wf-3.png">
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+    <div class="row ordering-card ">
+        <div class="col-lg-3 ordering-info text-center">
+            <img src="./assets/img/support.png">
+            <h4>Support in less than 24 hrs</h4>
+            <h5>Chat & Voice Assistance Whatsapp, Skype, Livechat, Email for us to help you out.</h5>
+        </div>
+        <div class="col-lg-3 ordering-info text-center">
+            <img src="./assets/img/api integration.png">
+            <h4>REST API For Integration.</h4>
+            <h5>Secure and fast api for integration into your current website or mobile app.</h5>
+        </div>
+        <div class="col-lg-3 ordering-info text-center">
+            <img src="./assets/img/secure data.png">
+            <h4>Secure Data</h4>
+            <h5>Information always saves, we keep backups in case something happens to your information.</h5>
+        </div>
+        <div class="col-lg-3 ordering-info text-center">
+            <img src="./assets/img/uptime.png">
+            <h4>99.999% Uptime</h4>
+            <h5>Your business must be running all the time.</h5>
+        </div>
+    </div>
+    <div class="row ordering-card">
+            <div class="col-lg-3 ordering-info text-center">
+                <img src="./assets/img/complaint.png">
+                <h4>GDPR Complaint</h4>
+                <h5>We are hand in hand with the regulators that come along every day to avoid any misunderstanding.</h5>
+            </div>
+            <div class="col-lg-3 ordering-info text-center">
+                <img src="./assets/img/constant innovation.png">
+                <h4>Constant Innovation</h4>
+                <h5>Weekly Updates to keep our technology at the top.</h5>
+            </div>
+            <div class="col-lg-3 ordering-info text-center">
+                <img src="./assets/img/community1.png">
+                <h4>Nutrition Community</h4>
+                <h5>Join our forum and submit your thoughts we gladly hear all of our customers and develop what they need.</h5>
+            </div>
+            <div class="col-lg-3 ordering-info text-center">
+                <img src="./assets/img/project advice.png">
+                <h4>Project Advice</h4>
+                <h5>You want to know more about how your business will get up and running? Reach our Experts.</h5>
+            </div>
+    </div>
+    <div class="panel-bg-color food-nutritional">
+            <div class="container">
+                    <div class="panel panel-default">
+                        <div class="panel-body text-center">
+                        <h2>Start with your FoodNAI platform today</h3>
+                        <h3> Book a meeting with us and we are happy to help you get started.</h3>
+                        <h4>Enter your email and book a meeting with our agents for a free consultation.</h4>
+                        <input type="email" id="email2" name="email" pattern=".+@globex.com" placeholder="Enter your email"></br>
+                        <button class="button contact-button" onclick="submitcontact()">Contact FoodNAI</button>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <div class="row footer-element">
+            <div class="col-lg-3">
+                <h4>FoodNAI</h4>
+                <h5><a href="./about-us.html">About US</a></h5>
+                <h5><a href="./privacy.html">Privacy Policy</a></h5>
+                <h5><a href="./terms-conditions.html">Terms and conditions</a></h5>
+                <!-- <h5><a href="./blogs.html">Blogs</a></h5> -->
+                <!-- <h5><a href="./customer-success.html">Customer Success</a></h5> -->
+				<h4>Partners</h4>
+				<img src="./assets/img/foodnai_partnernw.png" style="height:71px;margin:0% 0% 2% 25%; ">
+            </div>
+            <div class="col-lg-3">
+                <h4>Products</h4>
+                <h5><a href="./restaurant-chain.html">Restaurant chains</a></h5>
+                <h5><a href="./restaurant.html">Restaurants</a></h5>
+                <h5><a href="./burger-shop.html">Burger & Sandwich</a></h5>
+                <h5><a href="./school.html">School Universities</a></h5>
+                <h5><a href="./nutrition.html">Nutrition Consultant</a></h5>
+            </div>
+            <div class="col-lg-3">
+                <h4>Features</h4>
+                <h5><a href="./all-feature.html">All Features</a></h5>
+                <h5><a href="./product.html">Products</a></h5>
+                <h5><a href="./why-foodnai.html">Why FoodNAI</a></h5>
+                <h4>Sales Area</h4>
+                <h5><a href="./contact-us.html">Contact</a></h5>
+            </div>
+            <div class="col-lg-3 doc-element">
+                <h4>Documentation</h4>
+                <h5><a href="./user-guide.html">User guide</a></h5>
+                <!-- <h5><a href="./documentation.html">FoodNAI API Documentation</a></h5> -->
+                <h4>Our Social Media Presence</h4>
+                <a onclick="onSocialMedia(this)"><img value="facebook" src="./assets/img/fb.png"></a>
+                <a onclick="onSocialMedia(this)"><img  value="youtube" src="./assets/img/youtube.png"></a>
+                <a onclick="onSocialMedia(this)"><img value="linkedin" src="./assets/img/linkedin.png"></a>
+                <a onclick="onSocialMedia(this)"><img value="twitter" src="./assets/img/twitter.png"></a>
+                <a onclick="onSocialMedia(this)"><img value= "skype"  src="./assets/img/skype.png"></a>
+                <a onclick="onSocialMedia(this)"><img value= "instagram" src="./assets/img/instagram.png"></a>
+            </div>
+        </div>
+
+        <div class="foodnai-footer text-center" >
+                <h5>Powered by <a href="./index.html">FoodNAI</a>: the leading provider of digital menu and food nutrition technology.
+                        © 2020 FoodNAI</h5>
+        </div>
+
+
+        <script>
+            jQuery('.mob-menu').click(function(){
+                jQuery('body').toggleClass('open_menu');
+                var bodyCls=jQuery("body").attr("class");
+                if(bodyCls == "open_menu"){
+                   jQuery(".nav-menu").css("opacity",1);
+                   jQuery(".nav-menu").css("display","block");
+                   jQuery(".navbar").css("padding-bottom",215);
+                }
+                else
+                {
+                   jQuery(".nav-menu").css("opacity",0);
+                   jQuery(".nav-menu").css("display","none");
+                   jQuery(".navbar").css("padding-bottom","unset");
+                }
+                
+           });
+       </script>
+
+        <script>
+                var vid = document.getElementById("restaurantVideo"); 
+                function openNav() {
+                    document.getElementById("myNav").style.display = "block";
+                }
+            
+                function closeNav() {
+                    vid.pause(); 
+                    vid.currentTime = 0;
+                    document.getElementById("myNav").style.display = "none";
+                }
+        </script>
+
+        <script>
+            function submit()
+            {
+                var email=$("#email1").val();
+                $.ajax({
+                    type: "POST",
+                    url: "send_mail.php",
+                    async: false,
+                    data: {
+                        email: email
+                    },
+                    success: function (response) 
+                    {
+                        if (response== "success") 
+                        {
+                            alert("Mail send successfully.");
+                        }
+                        else 
+                        {
+                            alert("System out of service, please try after some time.");
+                        }
+                    }
+                });
+            }
+        </script>
+
+        <script>
+            function submitcontact()
+            {
+                var email=$("#email2").val();
+                $.ajax({
+                    type: "POST",
+                    url: "send_mail.php",
+                    async: false,
+                    data: {
+                        email: email
+                    },
+                    success: function (response) 
+                    {
+                        if (response== "success") 
+                        {
+                            alert("Mail send successfully.");
+                        }
+                        else 
+                        {
+                            alert("System out of service, please try after some time.");
+                        }
+                    }
+                });
+            }
+            </script>
+</body>
+
+</html>

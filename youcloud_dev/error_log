@@ -1,0 +1,55 @@
+[16-Oct-2021 10:18:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1096
+[16-Oct-2021 10:19:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1096
+[16-Oct-2021 10:21:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1096
+[16-Oct-2021 10:21:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1096
+[16-Oct-2021 10:21:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1096
+[16-Oct-2021 10:21:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1096
+[16-Oct-2021 10:22:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1096
+[16-Oct-2021 10:22:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1096
+[16-Oct-2021 10:24:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1093
+[16-Oct-2021 10:25:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1092
+[16-Oct-2021 10:25:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1092
+[16-Oct-2021 10:25:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1092
+[16-Oct-2021 10:25:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1092
+[16-Oct-2021 10:25:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1092
+[16-Oct-2021 10:25:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/restaurant_detail.php on line 1092
+[17-Oct-2021 10:12:24 UTC] PHP Notice:  Undefined variable: conn in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:12:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:12:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 11
+[17-Oct-2021 10:12:55 UTC] PHP Notice:  Undefined variable: conn in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:12:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:12:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 11
+[17-Oct-2021 10:13:02 UTC] PHP Notice:  Undefined variable: conn in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:13:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:13:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 11
+[17-Oct-2021 10:13:15 UTC] PHP Notice:  Undefined variable: conn in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:13:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:13:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 11
+[17-Oct-2021 10:13:30 UTC] PHP Notice:  Undefined variable: conn in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:13:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:13:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 11
+[17-Oct-2021 10:13:57 UTC] PHP Notice:  Undefined variable: conn in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:13:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:13:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 11
+[17-Oct-2021 10:14:29 UTC] PHP Notice:  Undefined variable: conn in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:14:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:14:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 11
+[17-Oct-2021 10:14:49 UTC] PHP Notice:  Undefined variable: conn in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:14:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 9
+[17-Oct-2021 10:14:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/ajaxActions.php on line 11
+[18-Oct-2021 10:47:27 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/placeorder.php on line 61
+[20-Oct-2021 06:56:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 06:56:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 06:56:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 06:56:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 06:56:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 06:56:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 06:56:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 06:56:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 06:56:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 06:56:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 218
+[20-Oct-2021 06:58:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 218
+[20-Oct-2021 07:04:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 218
+[20-Oct-2021 07:04:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 223
+[20-Oct-2021 07:05:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 228
+[20-Oct-2021 07:05:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bphbbtunxk6d/public_html/dev.atzean.com/youcloud_dev/account.php on line 228

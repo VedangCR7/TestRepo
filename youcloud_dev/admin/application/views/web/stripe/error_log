@@ -1,0 +1,2 @@
+[07-Dec-2020 07:14:04 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_lrugsj3swxrB72) You cannot use a Stripe token more than once: tok_1HvduoG3AzW6nSUPYNhXi7qM.
+  thrown in /home/c3szbxautrnf/public_html/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38

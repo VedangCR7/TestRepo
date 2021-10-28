@@ -1,0 +1,4287 @@
+body {
+
+    margin: 0;
+
+    font-size: 28px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .nav-menu .icon {
+
+    display: none;
+
+  }
+
+
+
+  .dropdown {
+
+    float: left;
+
+    overflow: hidden;
+
+    padding-top: 10px !important;
+
+  }
+
+  
+
+  .dropdown .dropbtn {
+
+    font-size: 18px;  
+
+    border: none;
+
+    outline: none;
+
+    color: white;
+
+    font-family: 'Roboto', sans-serif !important;
+
+    font-weight: 500;
+
+    padding: 5px 10px;
+
+    background-color: #48a24e;
+
+    font-family: inherit;
+
+    margin: 0;
+
+    
+
+  }
+
+  
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+
+    background-color: #48a24e;
+
+  }
+
+  
+
+ 
+
+  .dropdown-content {
+
+    display: none;
+
+    background-color: #f9f9f9;
+
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    position: fixed;
+
+    border-radius: 7px;
+
+  }
+
+  .dropdown-content a:hover{
+
+    color: #48a24e !important;
+
+}
+
+  
+
+  .dropdown-content a {
+
+    float: none;
+
+    color: black !important;
+
+    padding: 12px 16px;
+
+    text-decoration: none;
+
+    display: block;
+
+    text-align: left;
+
+    position : relative;
+
+    font-family: 'Roboto', sans-serif !important;
+
+    font-weight: 500;
+
+  }
+
+  
+
+  .dropdown-content a:hover {
+
+    background-color: #ddd;
+
+  }
+
+  
+
+  .dropdown:hover .dropdown-content {
+
+    display: block;
+
+  }
+
+  
+
+  #navbar {
+
+    overflow: hidden;
+
+    height: 95px;
+
+    background-color: white;
+
+    box-shadow: 0 1px 5px rgba(0,0,1,.5);
+
+  }
+
+  
+
+  #navbar li {
+
+    float: left;
+
+    display: block;
+
+    color: black;
+
+    text-align: center;
+
+    padding: 11px 16px;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+  }
+
+  
+
+  #navbar .nav-menu li:hover a {
+
+    border-bottom: 2px solid #48a24e;
+
+  }
+
+  
+
+  #navbar a.active {
+
+    background-color: #48a24e;
+
+    color: white;
+
+  }
+
+ #navbar a{
+
+  color: black;
+
+    text-decoration: none;
+
+    background-color: transparent;
+
+    font-family: sans-serif;
+
+    font-weight: 400;
+
+  }
+
+  
+
+  .content {
+
+    padding: 16px;
+
+  }
+
+  
+
+  #navbar {
+
+    position: fixed;
+
+    top: 0;
+
+    z-index: 1;
+
+    width: 100%;
+
+  }
+
+  
+
+  #navbar + .content {
+
+    padding-top: 60px;
+
+  }
+
+  
+
+  .company-logo{
+
+      float: left;
+
+      
+
+  }
+
+  .company-logo li img{
+
+    height: 60px;
+
+  }
+
+
+
+  .nav-menu{
+
+      float: right;
+
+      padding: 15px 0;
+
+      padding-right: 80px;
+
+      text-decoration: none;
+
+  }
+
+  .nav-menu li a {
+
+    font-family: 'Roboto', sans-serif !important;
+
+    font-weight: 500 !important;
+
+  }
+
+
+
+  hr{
+
+    margin: 0 !important;
+
+	-webkit-box-shadow: 0 8px 6px -6px black;
+
+	   -moz-box-shadow: 0 8px 6px -6px black;
+
+	        box-shadow: 0 8px 6px -6px black;
+
+    }
+
+h1{
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    text-align: left;
+
+    line-height: 1.5;
+
+    margin-left: 30px
+
+}
+
+.grid-container h3{
+
+  margin-top: 0;
+
+  color: #263238;
+
+  font-family: itc-avant-garde-gothic-pro,sans-serif;
+
+  font-weight: 300 !important;
+
+  display: block;
+
+  font-size: 1.5em;
+
+  margin-block-start: 0.83em;
+
+  margin-block-end: 0.83em;
+
+  margin-inline-start: 0px;
+
+  margin-inline-end: 0px;
+
+  margin-left: 30px;
+
+  padding-top: 40px
+
+}
+
+
+
+.market-content{
+
+  padding-top: 95px;
+
+  padding-left: 40px !important;
+
+
+
+}
+
+.allergen {
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 400 !important;
+
+  font-size: 22px !important; 
+
+  padding-top: 50px !important;
+
+  padding-bottom: 50px !important;
+
+}
+
+.market-img span{
+
+  font-size: 18px;
+
+  position: absolute;
+
+    padding: 12px;
+
+}
+
+.market-img{
+
+  padding-right: 0 !important;
+
+}
+
+.market-img h3{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+}
+
+.market-img a{
+
+  float: left;
+
+  padding-right: 25px;
+
+}
+
+.market-content strong span{
+
+  font-family: 'Roboto', sans-serif;
+
+  letter-spacing: 1px;
+
+  font-weight: 900;
+
+  font-size: 30px;
+
+}
+
+.market-content h2 span{
+
+  font-family: 'Roboto', sans-serif;
+
+  letter-spacing: 1px;
+
+  font-weight: 400;
+
+  font-size: 30px;
+
+}
+
+.market-content img{
+
+  width: 100%;
+
+}
+
+.market-content h2{
+
+  margin-top: 70px;
+
+  margin-bottom: 50px;
+
+}
+
+
+
+.market-content h3{
+
+  padding-top : 10px; 
+
+}
+
+.market-text{
+
+  margin-top: 85px;
+
+}
+
+.brands-header{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 23px;
+
+  font-weight: 400;
+
+  padding-top: 100px;
+
+  padding-bottom: 50px;
+
+
+
+}
+
+.brand-button{
+
+  border-radius: 50px;
+
+  font-weight: 500;
+
+  padding-top: 10px !important;
+
+  padding-bottom: 10px !important;
+
+  padding-left: 30px !important;
+
+  padding-right: 30px !important;
+
+  font-size: 20px !important;
+
+}
+
+.button {
+
+  background-color:#48a24e; /* Green */
+
+  border: none;
+
+  color: white;
+
+  padding: 5px 20px 5px 20px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 16px;
+
+  margin: 4px 2px;
+
+  cursor: pointer;
+
+}
+
+
+
+.button1 {
+
+  border-radius: 50px;
+
+  margin-left: 15px;
+
+  padding: 5px 25px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+}
+
+.live-demo-button{
+
+  border-radius: 50px;
+
+  /* margin-left: 15px; */
+
+  padding: 5px 25px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+  background-color: #e27272;
+
+  margin-top: -35px;
+
+}
+
+.contact-us-button{
+
+  border-radius: 50px;
+
+  margin-left: 15px;
+
+  padding: 5px 28px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+  margin-top: -35px;
+
+}
+
+.login-button{
+
+  border-radius: 50px;
+
+  margin-left: 15px;
+
+  padding: 5px 47px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+  margin-top: -35px;
+
+}
+
+
+
+.grid-container img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.tour-content{
+
+  background-color:#d0ffd0;
+
+}
+
+.tour-content h3{
+
+text-align: center;
+
+font-size: 20px;
+
+padding-top: 30px;
+
+}
+
+.tour-button{
+
+  border-radius: 50px;
+
+  margin-top: 10px;
+
+  margin-left: 600px;
+
+  padding: 10px 35px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+  font-size: 18px;
+
+  margin-bottom: 30px;
+
+}
+
+.work-growth h3{
+
+text-align: center;
+
+font-weight: bold;
+
+padding-bottom: 20px;
+
+padding-top: 60px;
+
+font-size: 20px;
+
+}
+
+.work-growth p{
+
+  text-align: center;
+
+  font-size: 18px;
+
+  color: #263238;
+
+  padding-bottom: 30px;
+
+}
+
+.online-info{
+
+padding-right: 70px;
+
+padding-left: 50px !important;
+
+font-size: 18px;
+
+padding-top: 60px;
+
+padding-bottom: 30px;
+
+}
+
+.online-info-text{
+
+  padding-top: 50px;
+
+}
+
+.online-info img{
+
+width: 100%;
+
+height: auto;
+
+margin-left: 20px;
+
+}
+
+.healthy-food-text{
+
+  padding-top: 50px;
+
+}
+
+.healthy-food{
+
+  font-size: 18px;
+
+  padding-left: 50px;
+
+  padding-top: 60px;
+
+  padding-bottom: 30px;
+
+}
+
+.healthy-food img{
+
+  width: 100%;
+
+  height: auto;
+
+  margin-right: 20px;
+
+}
+
+.business-management{
+
+  font-size: 18px;
+
+  padding-right: 70px;
+
+  padding-top: 60px;
+
+  padding-bottom: 90px;
+
+}
+
+.business-management-text{
+
+  padding-top:50px;
+
+}
+
+.business-management img{
+
+  width: 100%;
+
+  height: auto;
+
+  margin-left: 20px;
+
+}
+
+.nutritional-content h4{
+
+  text-align: center;
+
+  padding-bottom: 20px;
+
+  padding-top: 20px;
+
+  background-color:#87c1eb;
+
+  color:white;
+
+}
+
+.nutritional-content h5{
+
+  text-align: center;
+
+}
+
+.card-content-bottom h5{
+
+  padding-bottom: 25px !important;
+
+
+
+}
+
+.food-nutritional input{
+
+  /* padding-right: 100px; */
+
+  width: 34%;
+
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+
+  border: 2px solid green;
+
+}
+
+.food-nutritional h2{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 900;
+
+}
+
+.food-nutritional h3{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+}
+
+.food-nutritional h4{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 500;
+
+}
+
+.panel-bg-color{
+
+padding-top: 60px;
+
+background-color:#d0ffd0;
+
+}
+
+
+
+.panel-bg-color .panel{
+
+  margin: 0 150px 60px;
+
+  padding: 30px 0 50px;
+
+}
+
+.container h4{
+
+  color:#e27272;
+
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+
+}
+
+
+
+.button2 {
+
+  border-radius: 50px;
+
+  margin-top: 15px;
+
+  }
+
+
+
+.content-text{
+
+    padding-top: 90px;
+
+    padding-bottom: 40px;
+
+  }
+
+  .content-text img{
+
+  width:100%;
+
+  height: auto;
+
+}
+
+.content-text .content{
+
+  width: 700px;
+
+}
+
+.content-text h4{
+
+font-size: 20px;
+
+line-height: 1.42857143;
+
+font-family: 'Roboto', sans-serif;
+
+font-weight: 900;
+
+}
+
+.content-text h5{
+
+  font-size: 16px;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 500;
+
+  padding-top: 30px;
+
+  line-height: 1.42857143;
+
+}
+
+.content-info{
+
+  margin-left: 30px;
+
+  font-size: 15px;
+
+  text-align: center;
+
+  font-weight: bold;
+
+  padding-bottom: 22px;
+
+    padding-top: 50px;
+
+}
+
+.content-info .content-bold{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 900;
+
+  font-size: 20px;
+
+}
+
+.content-info .content-light{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+}
+
+.service-content{
+
+  padding-top: 30px;
+
+  padding-bottom: 50px;
+
+}
+
+.service-content h5{
+
+  font-size: 16px;
+
+  text-align: center;
+
+}
+
+.service-content h4{
+
+  color: grey;
+
+  text-align:center;
+
+  font-size: 16px;
+
+  padding-top:10px;
+
+  padding-bottom: 10px;
+
+}
+
+.service-content h6{
+
+  font-size: 14px;
+
+  line-height: 1.75;
+
+}
+
+.service-content img{
+
+  width: 60px;
+
+  height: 60px;
+
+  margin-left: 70px;
+
+  margin-top: 20px;
+
+  margin-bottom: 15px;
+
+}
+
+
+
+.restaurant-button{
+
+  background-color: rgb(115,129,152);
+
+  border-radius: 50px;
+
+  margin-left: 45px;
+
+  padding-top:10px;
+
+  padding-bottom: 10px;
+
+}
+
+.restaurant-chain-button{
+
+  background-color:rgb(255,152,0);
+
+  border-radius: 50px;
+
+  margin-left: 45px;
+
+  padding-top:10px;
+
+  padding-bottom: 10px;
+
+}
+
+.shop-button{
+
+  background-color: rgb(33,150,243);
+
+  border-radius: 50px;
+
+  margin-left: 45px;
+
+  padding-top:10px;
+
+  padding-bottom: 10px;
+
+}
+
+.school-button{
+
+  background-color: rgb(76,175,80);
+
+  border-radius: 50px;
+
+  margin-left: 45px;
+
+  padding-top:10px;
+
+  padding-bottom: 10px;
+
+}
+
+.consultant-button{
+
+  background-color: rgb(233,30,99);
+
+  border-radius: 50px;
+
+  margin-left: 45px;
+
+  padding-top:10px;
+
+  padding-bottom: 10px;
+
+}
+
+
+
+
+
+.service-info{
+
+  margin-right: 13px;
+
+  width:195px;
+
+  height: 480px;
+
+  border: 2px solid gray;
+
+  box-shadow: 0 2px 4px rgba(0,0,1,.5);
+
+    border-radius: 10px;
+
+    transition: .4s ease;
+
+}
+
+.service-info:hover {
+
+  box-shadow: 0 15px 15px rgba(0,0,1,.5);
+
+}
+
+.service-info-bottom h3{
+
+  padding-bottom: 22px;
+
+
+
+}
+
+.business-content{
+
+  padding-top:80px;
+
+  padding-bottom: 60px;
+
+}
+
+.business-content img{
+
+  width: 85%;
+
+  height: auto;
+
+}
+
+.business-content h3{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 900;
+
+  font-size: 30px;
+
+  font-weight: bold;
+
+}
+
+.business-content h4{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 500;
+
+  font-size: 25px;
+
+  padding-bottom: 20px;
+
+  padding-top: 15px;
+
+}
+
+.business-content h5{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+  width: 700px;
+
+  font-size: 18px;
+
+  margin-top: 40px;
+
+  line-height: 1.42857143;
+
+}
+
+.price-content{
+
+  padding-bottom: 60px;
+
+}
+
+.price-content h3{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px;
+
+  text-align: center;
+
+  font-weight: bold;
+
+}
+
+.price-content h4{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+ font-size:22px;
+
+}
+
+.price-content h5
+
+{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+ color:grey;
+
+ text-align: center;
+
+}
+
+.footer-content{
+
+  padding-bottom:50px;
+
+}
+
+.footer-content img{
+
+width:100%;
+
+height: auto
+
+}
+
+.food-info h2{
+
+  margin-left: 30px;
+
+}
+
+
+
+.footer-info input{
+
+  /* padding-right: 100px; */
+
+  width: 35%;
+
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+
+  border: 2px solid green;
+
+}
+
+.footer-info h2{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 900;
+
+  font-size: 27px;
+
+}
+
+.footer-info h3{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+  padding-top:20px;
+
+  padding-bottom: 20px;
+
+  font-size: 22px;
+
+}
+
+.footer-info h4{
+
+  padding-bottom: 30px;
+
+}
+
+.contact-button{
+
+  margin-top: 10px;
+
+  /* padding: 5px 25px; */
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+  padding-right: 75px;
+
+  padding-left: 75px;
+
+}
+
+/* The Overlay (background) */
+
+.overlay {
+
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+
+  height: 100%;
+
+  width: 100%;
+
+  position: fixed; /* Stay in place */
+
+  z-index: 1; /* Sit on top */
+
+  left: 0;
+
+  top: 0;
+
+  display:none;
+
+  background-color: rgb(0,0,0); /* Black fallback color */
+
+  background-color: rgba(0,0,0, 0.57); /* Black w/opacity */
+
+  overflow-x: hidden; /* Disable horizontal scroll */
+
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+
+}
+
+
+
+/* Position the content inside the overlay */
+
+.overlay-content {
+
+  position: relative;
+
+  top: 6%; /* 25% from the top */
+
+  width: 100%; /* 100% width */
+
+  text-align: center; /* Centered text/links */
+
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+
+}
+
+
+
+/* The navigation links inside the overlay */
+
+.overlay a {
+
+  padding: 8px;
+
+  text-decoration: none;
+
+  font-size: 36px;
+
+  color: #f2f7efed;
+
+  display: block; /* Display block instead of inline */
+
+  transition: 0.3s; /* Transition effects on hover (color) */
+
+}
+
+
+
+/* When you mouse over the navigation links, change their color */
+
+.overlay a:hover, .overlay a:focus {
+
+  color: #f1f1f1;
+
+}
+
+
+
+/* Position the close button (top right corner) */
+
+.overlay .closebtn {
+
+  position: absolute;
+
+  top: 0px;
+
+  right: 49px;
+
+  font-size: 57px;
+
+}
+
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+@media screen and (max-height: 450px) {
+
+  .overlay a {font-size: 20px}
+
+  .overlay .closebtn {
+
+    font-size: 40px;
+
+    top: 15px;
+
+    right: 35px;
+
+  }
+
+}
+
+
+
+.footer-element{
+
+  background-color: #e9f0f3;
+
+  margin-top: 60px;
+
+}
+
+
+
+.footer-element h4{
+
+  color: #45a049;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  padding-top: 30px;
+
+  margin-left: 80px;
+
+
+
+}
+
+.footer-element h5{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 300;
+
+  font-size: 15px;
+
+  margin-left: 80px;
+
+  padding-top: 10px;
+
+
+
+}
+
+.doc-element h4{
+
+  color: #45a049;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  padding-top: 30px;
+
+  /* margin-left: 50px; */
+
+
+
+}
+
+.doc-element h5{
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 300;
+
+  font-size: 15px;
+
+  /* margin-left: 50px; */
+
+  padding-top: 10px;
+
+
+
+}
+
+.doc-element img{
+
+  margin-left: 5px;
+
+  height: 37px;
+
+  width: 37px;
+
+}
+
+
+
+
+
+
+
+/*************************************************************************** End of home page /////////////////////////////////////////////////////////////////////////////////////////*/
+
+/************************************************************************* start of why-foodnai page******************************** */
+.brands1 img{
+  margin-bottom: 20px !important;
+}
+.header-content img{
+
+width:100%;
+
+height: auto;
+
+}
+
+.header-content{
+
+margin-top: 96px !important;
+
+}
+
+.foodnai-content{
+
+  padding-top: 50px;
+
+}
+
+.foodnai-content input{
+
+  /* padding-right: 100px; */
+
+  width: 52%;
+
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+
+  border: 2px solid green;
+
+}
+
+.header-content strong span{
+
+    font-family: 'Roboto', sans-serif;
+
+    letter-spacing: 1px;
+
+    font-weight: 900;
+
+    font-size: 30px;
+
+    /* padding-top: 50px; */
+
+  }
+
+  .foodnai-content h2 span{
+
+  font-family: 'Roboto', sans-serif;
+
+  letter-spacing: 1px;
+
+  font-weight: 400;
+
+  font-size: 25px;
+
+}
+
+
+
+.header-content h5{
+
+  padding-top: 50px;
+
+  font-size: 20px;
+
+  padding-bottom: 30px;
+
+}
+
+.header-content{
+
+  margin-left: 30px !important;
+
+}
+
+.submit-button{
+
+  margin-top: 10px;
+
+  /* margin-left: 20px; */
+
+  /* padding: 5px 15px 5px 15px; */
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+  font-size: 18px;
+
+  margin-bottom: 10px;
+
+  padding-left: 110px;
+
+  padding-right: 107px;
+
+}
+
+.business-content h4{
+
+  font-size: 20px;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 900;
+
+  text-align: center;
+
+}
+
+.business-content span{
+
+  font-size: 18px;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+
+  margin: 245px;
+
+}
+
+.business img{
+
+  width: 100%;
+
+  height: auto;
+
+  padding-top: 70px;
+
+}
+
+.feature-content{
+
+  font-size:16px;
+
+  text-align: center;
+
+  line-height: 1.5;
+
+  padding-top:30px;
+
+}
+
+
+
+.all-features{
+
+  cursor: pointer;
+
+  margin-left: 900px;
+
+  font-size: 25px;
+
+  font-weight: bold;
+
+  color: black;
+
+}
+
+.selling-content{
+
+  padding-top: 100px;
+
+  padding-bottom: 70px;
+
+
+
+}
+
+.selling-content img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.selling-content h3{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 20px;
+
+  line-height: 1.42857143;
+
+}
+
+.selling-content h4{
+
+  font-size: 17px;
+
+  padding-top: 20px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  line-height: 1.42857143;
+
+}
+
+.customer-content h3{
+
+  font-weight: bold;
+
+  text-align: center;
+
+  color: black;
+
+}
+
+.customer-content p{
+
+  font-size: 18px;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+}
+
+.customer-content h4{
+
+  text-align: center;
+
+  color: black;
+
+  padding-top:50px;
+
+  padding-bottom: 40px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 19px;
+
+
+
+}
+
+.brands{
+
+  margin-left: 80px !important;
+
+  padding-top: 30px;
+
+  padding-bottom: 40px !important;
+
+}
+
+.button3{
+
+  background-color:gray;
+
+  border-radius: 50px;
+
+}
+
+.business-supported{
+
+  padding-top: 50px;
+
+}
+
+.business-supported img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.business-supported h3{
+
+  color: black;
+
+  font-weight: bold;
+
+  
+
+}
+
+.business-supported h4{
+
+  padding-top: 30px;
+
+  line-height: 1.42857143;
+
+}
+
+.work-online-content h3{
+
+margin-left: 80px;
+
+font-weight: bold;
+
+}
+
+.business{
+
+  margin-left: 50px !important;
+
+}
+
+.business-work-content{
+
+  margin-right: 13px;
+
+  height: 215px;
+
+  border: 2px solid #48a24e;
+
+  
+
+    border-radius: 10px;
+
+    transition: .4s ease;
+
+    width:40% !important;
+
+    cursor: pointer;
+
+}
+
+.business-work-content h4{
+
+  padding-bottom: 22px;
+
+  font-size: 20px;
+
+
+
+}
+
+.content-hover:hover{
+
+  box-shadow: 0 8px 8px rgba(0,0,1,.5);
+
+}
+
+.business-work-content1{
+
+  border: 2px solid #48a24e;
+
+  border-radius: 10px;
+
+  padding: 10px;
+
+  margin-bottom: 10px;
+
+  /* margin-right: 13px;
+
+  height: 215px;
+
+  border: 2px solid #48a24e;
+
+    border-radius: 10px;
+
+    transition: .4s ease;
+
+    width:40% !important;
+
+    cursor: pointer; */
+
+
+
+}
+
+.content-hover1:hover{
+
+  box-shadow: 0 8px 8px rgba(0,0,1,.5);
+
+}
+
+
+
+.business-work-content1 h4{
+
+  padding-bottom: 22px;
+
+  font-size: 20px;
+
+
+
+}
+
+.business{
+
+  padding-top: 30px;
+
+}
+
+.amazing-features{
+
+  padding-top: 90px;
+
+  padding-bottom: 90px;
+
+}
+
+.amazing-features h3{
+
+font-family: 'Roboto' , sans-serif;
+
+font-weight: 900;
+
+font-size: 18px;
+
+text-align: center;
+
+padding-top: 50px;
+
+}
+
+.amazing-features h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  text-align: center;
+
+  padding-top: 30px;
+
+  line-height: 1.42857143;
+
+  }
+
+  
+
+.integrate-content h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 22px;
+
+  text-align: center;
+
+}
+
+.integrate-content h5{
+
+  text-align: center;
+
+  font-size: 18px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 300;
+
+}
+
+.integrate-need h4{
+
+font-size: 18px;
+
+font-family: 'Roboto' , sans-serif;
+
+font-weight: 700;
+
+padding-top: 50px;
+
+}
+
+.integrate-need h5{
+
+  font-size: 16px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  line-height: 1.42857143;
+
+  }
+
+  .solution-content{
+
+    background-color: #d0ffd0;
+
+    
+
+  }
+
+.solution-content h4{
+
+  font-size: 20px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  text-align: center;
+
+  padding-top: 90px;
+
+}
+
+.solution-content h5{
+
+  font-size: 16px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  text-align: center;
+
+}
+
+.solution-content img{
+
+  width: 60%;
+
+  height: auto;
+
+  margin-left: 30px;
+
+}
+
+.perfect-solution-content h3{
+
+font-size: 20px;
+
+font-family: 'Roboto' , sans-serif;
+
+text-align: center;
+
+}
+
+
+
+.perfect-solution-content h5{
+
+  font-size:18px;
+
+  text-align: center;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 300;
+
+
+
+}
+
+.ordering img{
+
+width: 55%;
+
+height: auto;
+
+margin-left: 245px;
+
+}
+
+.ordering-card{
+
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+
+  margin-left: 90px !important;
+
+}
+
+.ordering-info{
+
+margin-right: 13px;
+
+  width:280px !important;
+
+  height: 200px !important;
+
+  border: 2px solid gray;
+
+  box-shadow: 0 2px 4px rgba(0,0,1,.5);
+
+    border-radius: 10px;
+
+    transition: .4s ease;
+
+}
+
+.ordering-info:hover{
+
+    box-shadow: 0 15px 15px rgba(0,0,1,.5);
+
+  }
+
+.ordering-info h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900 !important;
+
+  text-align: center;
+
+}
+
+.ordering-info h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  text-align: center;
+
+}
+
+.ordering-info img{
+
+    padding-top: 10px;
+
+}
+
+@media screen and (max-height: 450px) {
+
+  .overlay a {font-size: 20px}
+
+  .overlay .closebtn {
+
+    font-size: 40px;
+
+    top: 15px;
+
+    right: 35px;
+
+  }
+
+}
+
+/********************************************************** End of why-foodnai page ******************************************************* */
+
+/* ********************************************************Start of all-feature page******************************************************* */
+
+.new-technology h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  /* text-align: center; */
+
+  padding-top: 50px;
+
+  font-size: 30px;
+
+  margin-left: 65px;
+
+}
+
+.new-technology input{
+
+    width: 42%;
+
+padding-top: 5px;
+
+padding-bottom: 5px;
+
+border:2px solid green;
+
+margin-left: 65px;
+
+}
+
+.new-technology{
+
+  padding-top: 95px;
+
+  /* margin-left: 20px; */
+
+}
+
+.new-technology h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  margin-left: 65px;
+
+  padding-top: 100px;
+
+  font-size: 18px;
+
+}
+
+.new-technology label{
+
+  margin-left: 65px !important;
+
+  /* padding-top: 30px; */
+
+  font-size: 16px;
+
+}
+
+.new-technology button
+
+{
+
+  margin-left: 65px;
+
+}
+
+.new-technology img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.management-tools h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 23px;
+
+  text-align: center;
+
+}
+
+.management-tools h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  text-align: center;
+
+  font-size: 20px
+
+}
+
+.management-info{
+
+  margin-right: 13px;
+
+    width:280px !important;
+
+    height: 150px !important;
+
+    border: 2px solid gray;
+
+    box-shadow: 0 2px 4px rgba(0,0,1,.5);
+
+      border-radius: 10px;
+
+      transition: .4s ease;
+
+  }
+
+.management-info:hover{
+
+ box-shadow: 0 15px 15px rgba(0,0,1,.5);
+
+}
+
+.management-info h4{
+
+text-align: center;
+
+font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+}
+
+.management-info img{
+
+  /* margin-left: 150px; */
+
+  padding-top: 20px;
+
+}
+
+.management-card{
+
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+
+  margin-left: 90px !important;
+
+}
+
+.foodnai-platform img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.foodnai-platform{
+
+  background-color:#d0ffd0;
+
+  
+
+}
+
+.foodnai-platform h4{
+
+  margin-left: 20px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+  padding-top: 150px;
+
+}
+
+.foodnai-platform h5{
+
+  margin-left: 18px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  padding-bottom: 40px;
+
+}
+
+.foodnai-platform img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.best-performance h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px;
+
+  text-align: center;
+
+  padding-top: 40px;
+
+}
+
+.best-performance h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 22px;
+
+  text-align: center;
+
+  padding-top: 20px;
+
+  padding-bottom: 30px;
+
+}
+
+.icons img{
+
+  padding-top: 40px;
+
+}
+
+.power-up img{
+
+  width: 35%;
+
+  height: auto;
+
+  padding-top: 70px;
+
+}
+
+.power-up h3{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px;
+
+  padding-top: 50px;
+
+}
+
+.power-up h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 22px;
+
+}
+
+.power-up h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 300;
+
+  font-size: 18px;
+
+}
+
+.analytics h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 20px;
+
+  margin-left: 60px;
+
+}
+
+.analytics-info{
+
+  margin-left: 30px !important;
+
+  padding-top: 30px;
+
+}
+
+.management h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 20px;
+
+  margin-left: 60px;
+
+  padding-top: 20px;
+
+}
+
+.management1-info{
+
+  margin-left: 30px !important;
+
+  padding-top: 30px;
+
+}
+
+.foodnai-app{
+
+  background-color: #d0ffd0;
+
+}
+
+.foodnai-app h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 20px;
+
+  padding-top: 70px;
+
+
+
+}
+
+.foodnai-app h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  padding-top: 15px;
+
+}
+
+.foodnai-app img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.test-button{
+
+  border-radius: 50px;
+
+  margin-top: 10px;
+
+  padding: 5px 25px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+}
+
+.start-foodnai h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 20px;
+
+  text-align: center;
+
+  padding-top: 30px;
+
+}
+
+.start-foodnai input{
+
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+
+  width: 20%;
+
+  border: 2px solid green;
+
+}
+
+/********************************************************** End of All-features page ******************************************** */
+
+/* ********************************************************Start of burger-shop page********************************************** */
+
+.bg-shop{
+
+  padding-bottom: 90px;
+
+}
+
+
+
+.bg-shop h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px;
+
+  padding-top: 150px;
+
+  margin-left: 30px;
+
+}
+
+.bg-shop input{
+
+width: 50%;
+
+padding-top: 5px;
+
+padding-bottom: 5px;
+
+border: 2px solid green;
+
+margin-left: 50px;
+
+}
+
+.contact1-button{
+
+  margin-left: 50px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  padding-right: 75px;
+
+  padding-left: 80px;
+
+  margin-top: 10px;
+
+
+
+}
+
+.bg-shop img{
+
+  width: 100%;
+
+  height: auto;
+
+  padding-top: 95px;
+
+}
+
+.bg-shop h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  padding-top: 30px;
+
+  margin-left: 30px;
+
+  line-height: 1.42857143;
+
+}
+
+.bg-shop h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  padding-top: 60px;
+
+  margin-left: 50px;
+
+}
+
+
+
+.sandwich-shop img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.sandwich-shop h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+}
+
+.sandwich-shop h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  padding-top: 21px;
+
+  padding-bottom:20px;
+
+}
+
+.sandwich-shop h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  line-height: 1.42857143;
+
+}
+
+.consumer{
+
+  margin-top: 80px;
+
+  margin-bottom: 80px;
+
+} 
+
+.consumer img{
+
+  width: 80%;
+
+  height: auto;
+
+}
+
+.consumer h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+  margin-left: 30px;
+
+  padding-top: 100px;
+
+}
+
+.consumer h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  padding-top: 21px;
+
+  padding-bottom:20px;
+
+  margin-left: 30px;
+
+  line-height: 1.42857143;
+
+}
+
+.consumer h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  margin-left: 30px;
+
+  line-height: 1.42857143;
+
+}
+
+
+
+.platform{
+
+  background-color: #d0ffd0;
+
+  padding-bottom: 20px;
+
+  padding-top:20px;
+
+}
+
+.platform h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+  padding-top: 60px;
+
+  
+
+}
+
+.platform h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  padding-top: 10px;
+
+}
+
+.platform h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  padding-top: 20px;
+
+}
+
+
+
+.recipe-info{
+
+  margin-right: 13px;
+
+    width:320px !important;
+
+    height: 250px !important;
+
+    border: 2px solid gray;
+
+    box-shadow: 0 2px 4px rgba(0,0,1,.5);
+
+      border-radius: 10px;
+
+      transition: .4s ease;
+
+  }
+
+.recipe-info:hover{
+
+ box-shadow: 0 15px 15px rgba(0,0,1,.5);
+
+}
+
+.recipe-info img{
+
+  padding-top: 20px;
+
+}
+
+.recipe-info h4{
+
+text-align: center;
+
+font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+}
+
+
+
+.recipe-card{
+
+  padding-top: 50px;
+
+  padding-bottom: 50px;
+
+  margin-left: 180px !important;
+
+}
+
+
+
+.website-info h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 20px;
+
+  text-align: center;
+
+}
+
+
+
+.website-info p{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  text-align: center;
+
+}
+
+.app{
+
+  padding-top: 50px;
+
+}
+
+.app img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.app h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 22px;
+
+  padding-top: 80px;
+
+}
+
+.app h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 300;
+
+  font-size: 18px;
+
+  line-height: 1.42857143;
+
+}
+
+.management-control h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 22px;
+
+  padding-top: 50px;
+
+}
+
+.management-control p{
+
+  font-family: 'Roboto' , sans-serif;
+
+    font-weight: 300;
+
+    font-size: 18px;
+
+  }
+
+.web p{
+
+font-family: 'Roboto' , sans-serif;
+
+  font-weight: 300;
+
+  font-size: 16px;
+
+  margin-left: 30px;
+
+  padding-top: 100px;
+
+  line-height: 1.42857143;
+
+}
+
+.web {
+
+  padding-top: 20px;
+
+}
+
+.web img{
+
+width: 100%;
+
+height: auto;
+
+}
+
+/* ********************************************************End of burger-shop page************************************************************************************* */
+
+/* **********************************************************Start of nutrition-page************************************************************** */
+
+.nutrition img{
+
+  width: 100%;
+
+  height: auto;
+
+  padding-top: 95px;
+
+}
+
+.nutrition h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px;
+
+  padding-top: 150px;
+
+  margin-left: 30px;
+
+}
+
+.nutrition h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  padding-top: 30px;
+
+  margin-left: 30px;
+
+  line-height: 1.42857143;
+
+}
+
+.nutrition h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  padding-top: 60px;
+
+  margin-left: 30px;
+
+}
+
+.nutrition input{
+
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+
+  width: 50%;
+
+  border: 2px solid green;
+
+  margin-left: 50px;
+
+}
+
+
+
+.individual-family{
+
+  padding-top: 80px;
+
+  padding-bottom: 50px;
+
+}
+
+.individual-family img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.individual-family h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+}
+
+.individual-family h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  padding-top: 21px;
+
+  padding-bottom:20px;
+
+}
+
+.individual-family h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  line-height: 1.42857143;
+
+}
+
+.consumer-info{
+
+  /* padding-top: 50px; */
+
+  padding-bottom: 80px;
+
+}
+
+.consumer-info img{
+
+  width: 90%;
+
+  height: auto;
+
+}
+
+.consumer-info h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+  margin-left: 30px;
+
+  margin-top: 180px;
+
+
+
+}
+
+.consumer-info h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  margin-left: 30px;
+
+  line-height: 1.42857143;
+
+}
+
+.platform-info{
+
+  background-color: #d0ffd0;
+
+}
+
+.platform-info h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+  padding-top: 70px;
+
+  
+
+}
+
+.platform-info h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  padding-top: 10px;
+
+}
+
+.platform-info h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  padding-top: 20px;
+
+}
+
+
+
+.branches h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+  padding-top: 20px;
+
+  padding-bottom: 60px;
+
+  text-align: center;
+
+}
+
+.franchise-info img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.franchise-info{
+
+  /* padding-top: 50px; */
+
+  padding-bottom: 30px;
+
+}
+
+
+
+.franchise-info h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 20px;
+
+  margin-left: 40px;
+
+  padding-top: 120px;
+
+  line-height: 1.42857143;
+
+}
+
+.franchise-info h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  margin-left: 40px;
+
+  line-height: 1.42857143;
+
+}
+
+.custom h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+}
+
+.nutritional-website{
+
+  padding-top: 20px;
+
+  padding-bottom: 50px;
+
+  margin-left: 30px !important;
+
+}
+
+.nutritional-website h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  color: #48a24e;
+
+}
+
+.website-service input{
+
+width: 44%;
+
+padding-top: 5px;
+
+padding-bottom: 5px;
+
+border: 2px solid green;
+
+}
+
+.text-content{
+
+  padding-left: 170px !important;
+
+    padding-top: 170px !important;
+
+}
+
+.website-service img{
+
+  /* width: 100%; */
+
+  height: auto;
+
+}
+
+.website-service h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 22px;
+
+}
+
+
+
+.website-service h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+}
+
+.website-service h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  line-height: 1.42857143;
+
+}
+
+/* **************************************************************End of nutrition page********************************************** */
+
+/* **************************************************************Start of school and universities page ***************************** */
+
+.schl-web img{
+
+width: 100%;
+
+height: auto;
+
+}
+
+.schl-web h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+  padding-top: 80px;
+
+}
+
+.schl-web h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  padding-top: 21px;
+
+  padding-bottom:20px;
+
+  line-height: 1.42857143;
+
+}
+
+
+
+.schl-web h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  line-height: 1.42857143;
+
+}
+
+.styled img{
+
+  width: 80%;
+
+  height: auto;
+
+}
+
+.styled h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 23px;
+
+  margin-left: 30px;
+
+  padding-top: 100px;
+
+}
+
+.styled h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  padding-top: 21px;
+
+  padding-bottom:20px;
+
+  margin-left: 30px;
+
+}
+
+.styled h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  margin-left: 30px;
+
+  line-height: 1.42857143;
+
+}
+
+/* ***********************************************************End of School page*********************************************************** */
+
+/* ***********************************************************Start of Products Page******************************************************* */
+
+.dashboard h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px;
+
+  padding-top: 150px;
+
+  margin-left: 30px;
+
+}
+
+.dashboard img{
+
+  width: 100%;
+
+  height: auto;
+
+  padding-top: 95px;
+
+}
+
+.dashboard h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  padding-top: 30px;
+
+  margin-left: 30px;
+
+}
+
+.dashboard h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  padding-top: 30px;
+
+  margin-left: 30px;
+
+  line-height: 1.42857143;
+
+}
+
+.dashboard p{
+
+  
+
+  margin-left: 30px;
+
+  font-size: 18px;
+
+  padding-top: 20px;
+
+
+
+}
+
+.dashboard a{
+
+  color: green;
+
+}
+
+.demo-button{
+
+  border-radius: 5px;
+
+}
+
+.health input{
+
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+
+  /* margin-left: 30px; */
+
+  border: 2px solid green;
+
+  padding-right: 100px;
+
+  margin-left: 50px;
+
+}
+
+.submit1-button{
+
+  margin-top: 10px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  padding-right: 114px;
+
+  padding-left: 114px;
+
+  margin-left: 50px;
+
+
+
+}
+
+
+
+/* ******************************************************End of products page****************************************************************/
+
+/* ******************************************************Start of Contact-us Page************************************************************** */
+
+
+
+  .required:after {
+
+    content:" *";
+
+    color: red;
+
+  }
+
+
+
+.proj h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 30px;
+
+  padding-top: 300px;
+
+  margin-left: 30px;
+
+}
+
+.proj img{
+
+  width: 100%;
+
+  height: auto;
+
+  padding-top: 95px;
+
+}
+
+.proj h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 25px;
+
+  padding-top: 30px;
+
+  margin-left: 30px;
+
+}
+
+.proj h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 22px;
+
+  padding-top: 30px;
+
+  margin-left: 30px;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text], select, textarea {
+
+  width: 100%; /* Full width */
+
+  padding: 12px; /* Some padding */ 
+
+  border: 1px solid #ccc; /* Gray border */
+
+  border-radius: 4px; /* Rounded borders */
+
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+
+  margin-top: 6px; /* Add a top margin */
+
+  margin-bottom: 16px; /* Bottom margin */
+
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  border: none;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+}
+
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+
+  background-color: #45a049;
+
+}
+
+
+
+/* Add a background color and some padding around the form */
+
+.container {
+
+  border-radius: 5px;
+
+  background-color: #f2f2f2;
+
+  padding: 20px;
+
+}
+
+
+
+/* ********************************************************88End of Contact-Us Page****************************************************************************** */
+
+/* **********************************************************Start of Live-demo PAge******************************************************************* */
+
+.demos h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 35px;
+
+  padding-top: 200px;
+
+  margin-left: 30px;
+
+}
+
+.demos img{
+
+  width: 100%;
+
+  height: auto;
+
+  padding-top: 95px;
+
+}
+
+.demos h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 25px;
+
+  margin-left: 30px;
+
+  padding-top: 50px;
+
+}
+
+.look-demo h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px;
+
+  margin-left: 30px;
+
+}
+
+.look-demo h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  margin-left: 30px;
+
+}
+
+.look-demo h6{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 20px;
+
+  margin-left: 30px;
+
+  color: #48a24e;
+
+  padding-top: 30px;
+
+}
+
+.foodnai-restaurant h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 20px;
+
+  margin-left: 60px;
+
+}
+
+.foodnai-restaurant h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  margin-left: 60px;
+
+}
+
+.demo-button{
+
+  border-radius: 50px;
+
+  margin-top: 10px;
+
+  margin-left: 60px;
+
+  padding: 10px 35px;
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+  font-size: 18px;
+
+  margin-bottom: 30px;
+
+}
+
+.foodnai-restaurant1 h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 22px;
+
+  margin-left: 60px;
+
+}
+
+.foodnai-restaurant1 h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  margin-left: 60px;
+
+}
+
+.foodnai-restaurant1 img{
+
+width: 80%;
+
+height: auto;
+
+}
+
+.foodnai-burger h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 22px;
+
+  margin-left: 60px;
+
+}
+
+.foodnai-burger{
+
+  padding-top: 50px;
+
+  padding-bottom: 50px;
+
+}
+
+
+
+.foodnai-burger h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  margin-left: 60px;
+
+}
+
+.foodnai-burger img{
+
+  width: 80%;
+
+  height: auto;
+
+}
+
+.foodnai-school h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 22px;
+
+  margin-left: 60px;
+
+  padding-top: 50px;
+
+}
+
+.foodnai-school h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  margin-left: 60px;
+
+}
+
+.foodnai-school img{
+
+  width: 80%;
+
+  height: auto;
+
+}
+
+.contact-button3{
+
+  margin-top: 10px;
+
+  /* padding: 5px 25px; */
+
+  font-family: 'Roboto', sans-serif !important;
+
+  font-weight: 500;
+
+  padding-right: 75px;
+
+  padding-left: 75px;
+
+}
+
+
+
+/* ********************************************************************End of Live-Demo Page************************************************************ */
+
+/* ********************************************************************Start ofAbou-us Page********************************************************** */
+
+.about-image img{
+
+  padding-top: 100px;
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.life-easy h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 25px;
+
+  padding-top: 20px;
+
+  margin-left: 30px;
+
+  text-align: center;
+
+
+
+}
+
+.life-easy h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  margin-left: 30px;
+
+  text-align: center;
+
+
+
+}
+
+.year-info h5{
+
+  font-size: 48px !important;
+
+  font-weight: bold;
+
+  margin-left: 100px;
+
+  padding-top: 80px;
+
+}
+
+.year-info h6{
+
+  font-size: 18px !important;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  margin-left: 100px;
+
+  padding-bottom: 90px;
+
+}
+
+.affordable-price h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 20px !important;  
+
+  padding-top: 50px;
+
+}
+
+.affordable-price h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 300;
+
+  font-size: 18px !important;  
+
+}
+
+.affordable-price img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.team h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px !important;  
+
+  padding-top: 50px;
+
+}
+
+.team h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 300;
+
+  font-size: 18px !important;  
+
+}
+
+.team-info{
+
+  padding-top: 50px;
+
+}
+
+.team-info h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px !important;  
+
+}
+
+.company{
+
+  padding-top: 80px;
+
+}
+
+.company img{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.company h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 700;
+
+  font-size: 22px !important; 
+
+  padding-top: 80px;
+
+  margin-left: 90px; 
+
+}
+
+.company h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 400;
+
+  font-size: 20px !important; 
+
+  padding-top: 30px;
+
+  margin-left: 90px; 
+
+}
+
+
+
+/* ********************************************************End of About us page ********************************************************** */
+
+/* *********************************************************Start of Terms And Conditio page***********************************************/
+
+.term-header img{
+
+  width: 150% !important;
+
+  height: auto;
+
+  padding-top: 96px;
+
+}
+
+.term-header h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 30px !important;
+
+  padding-top: 300px;
+
+  /* margin-left: 200px; */
+
+}
+
+.terms-info h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px !important;
+
+  margin-left: 50px;
+
+  padding-top: 50px;
+
+  padding-bottom: 10px;
+
+}
+
+.terms-info h5{
+
+font-family: 'Roboto' , sans-serif;
+
+  font-weight: 300;
+
+  font-size: 16px !important;
+
+  margin-left: 50px;
+
+  line-height: 1.5;
+
+
+
+}
+
+/* *********************************************************End of terms and condition page ************************************************** */
+
+/* *********************************************************Start of Privacy page****************************************************************/
+
+.privacy-header img{
+
+  width: 130% !important;
+
+  height: auto;
+
+  padding-top: 95px;
+
+}
+
+.privacy-header h4{
+
+  padding-top: 300px;
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 35px !important;
+
+  margin-left: 180px;
+
+}
+
+.thank-info h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px !important;
+
+  padding-top: 60px;
+
+}
+
+.privacy-info h4{
+
+  font-family: 'Roboto' , sans-serif;
+
+  font-weight: 900;
+
+  font-size: 25px !important;
+
+  padding-top: 50px;
+
+  margin-left: 50px;
+
+}
+
+.privacy-info h5{
+
+  font-family: 'Roboto' , sans-serif;
+
+    font-weight: 300;
+
+    font-size: 16px !important;
+
+    margin-left: 50px;
+
+    line-height: 1.5;
+
+  
+
+  }
+
+  /* Footer */
+
+  .foodnai-footer h5{
+
+    font-family: 'Roboto' , sans-serif;
+
+    font-weight: 300;
+
+    font-size: 16px !important;
+
+    padding-top: 10px;
+
+  }
+
+  .foodnai-footer a{
+
+    color: green;
+
+  }
+
+
+
+  /* *************************************************Start of Blogs PAge********************************************************** */
+
+  .comming img{
+
+    width: 50%;
+
+    height: auto;
+
+    padding-top: 80px;
+
+  }

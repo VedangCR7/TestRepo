@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZJNB18KS2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-8ZJNB18KS2');
+        </script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FoodNAI</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta content="Powerful FoodNAI platform provide users nutrition and allergen information of their favorite food. Restaurant will be able to provide a detailed analysis of each ingredient on the menu making and experience everyone can enjoy food safely." name="description">
+    <meta content="Nutrition analysis website,allergen analysis website, restaurant food nutrition analysis,food nutrition analysis, nutrition food, recipe nutrition calculator, analyzed my food, nutrition tools, food analysis report." name="keyword">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='responsive.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='overlaystyle.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/FoodNAI short Logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./controller.js"></script>
+</head>
+<body style="overflow-x: hidden;">
+    <div id="navbar" class="navbar">
+        <ul class="company-logo"><li><a href="./index.html"><img src="./assets/img/FoodNAI Logo.png"></a></li></ul>
+        <div class="mob-menu"><span></span></div>
+        <ul class="nav-menu" id="myTopnav">
+            <li><a href="./why-foodnai.html">Why FoodNAI</a></li>
+            <!-- <li><a href="javascript:void(0)">Solutions</a></li> -->
+            <li class="dropdown">
+                    <a class="dropbtn">Solutions 
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                            <a href="./product.html">Products</a>
+                            <a href="./all-feature.html">All Features</a>
+                            <a href="restaurant-chain.html">Restaurant chains</a>
+                            <a href="restaurant.html">Restaurant</a>
+                            <a href="./burger-shop.html">Burger & Sandwich shop</a>
+                            <a href="school.html">School & Universities</a>
+                            <a href="./nutrition.html">Nutrition consultant</a>
+                    </div>
+                </li> 
+                <li><button class="button live-demo-button" onclick="live_demo()">Live Demos</button></li>
+                <li><button class="button button1" onclick="contact_us()">Contact Us</button></li>
+                <li><button class="button login-button" onclick="login()">Login</button></li>
+        </ul>
+    </div>
+
+    <div class=" row bg-shop">
+            <div class="col-lg-5">
+                <h4>Our Online nutritional Platform for Franchises Restaurants</h4>
+                <h5>The best franchise models are online & we have the best solution</h5>
+                <h6>Questions? Talk to our sales experts.*</h6>
+                <input type="email" id="email6" name="email" placeholder="Enter your email"></br>
+                <button class="button contact1-button text-center" onclick="contact1()">Contact Me Now</button>
+            </div>
+            <div class="col-lg-7">
+                <img src="./assets/img/restaurant-chain-1.png">
+            </div>
+    </div>
+
+   <div class="branches">
+       <h4>FoodNAI offers REST API for software, mobile apps  and web platforms for franchises in many branches.</h4>
+   </div>
+
+   <div class="row franchise-info">
+        <div class="col-lg-5">
+                <img src="./assets/img/Brand image.png">
+        </div>
+        <div class="col-lg-7">
+               <h4>When we talk about Franchises, we are talking about a restaurant who has many locations in a city,country or worldwide.</h4>
+               <h6>Create owner account and add all your  restaurants as franchises account. 
+                    Manage all your data from one place. Manage all analytics from one place.
+                    Manage all recipe from one place or different locations as per your settings.</h6>
+        </div>
+    </div>
+
+    <div class="row franchise-info">
+            <div class="col-lg-7">
+                   <h4>Totally Connected</h4>
+                   <h6>Franchisees are usually looking for a system that handles many locations simultaneously.</h6>
+                   <h6> FoodNAI offers the solution for multi-location managing.</h6>
+                    <h6>This solution is the way to go because franchises tend to have more than one location in a city, country or worldwide.</h6>
+            </div>
+            <div class="col-lg-5">
+                    <img src="./assets/img/mob-rc-1.png">
+            </div>
+    </div>
+
+    <div class="row franchise-info">
+            <div class="col-lg-5">
+                    <img src="./assets/img/mob-rc-2.png">
+            </div>
+            <div class="col-lg-7">
+                   <h4>Administration System</h4>
+                   <h6>Nutritional information portal for franchisees where they can review all the  recipe according to their location.</h6>
+                      <h6>This excellent system makes everything a lot easier. Owner can choose the  location and check all the recipe and manage it.</h6>
+            </div>
+    </div>
+
+    <div class="custom text-center">
+        <h4>Do you want a custom Website and/or App?</h4>
+    </div>
+
+    <div class="row nutritional-website text-center">
+        <div class="col-lg-3">
+            <img src="./assets/img/restaurant chain.png">
+            <h5>Recipe Submit Platform</h5>
+        </div>
+        <div class="col-lg-3">
+            <img src="./assets/img/website.png">
+            <h5>Nutritional information Website</h5>
+        </div>
+        <div class="col-lg-3">
+            <img src="./assets/img/mobileapp.png">
+            <h5>Nutritional information App</h5>
+        </div>
+        <div class="col-lg-3">
+            <img src="./assets/img/recipe tool.png">
+            <h5>Recipe Management Tools</h5>
+        </div>
+    </div>
+
+    <div class="row franchise-info">
+            <div class="col-lg-7">
+                   <h4>A complete nutritional information website(for one location or multi-location)</h4>
+                   <h6>Your Website & Apps are going to sync with your Dashboard; this way, any change made on any recipe will be shown on both platform for single location or multiple location.</h6>
+            </div>
+            <div class="col-lg-5">
+                    <img src="./assets/img/mob-rc-3.png">
+            </div>
+    </div>
+
+    <div class="row website-service">
+            <div class="col-lg-5">
+                <img src="./assets/img/resta-bg.png">
+            </div>
+            <div class="col-lg-7 text-content">
+                   <h4>Do you want a custom Website and/or App?</h4>
+                   <h6>We also offer customization services to bring your style to your  Website or Apps. Contact us for more information.</h6>
+                   <h5>Enter your email and book a meeting with our agents for a free consultation.</h5>
+                        <input type="email" id="email7" name="email" placeholder="Enter your email"></br>
+                        <button class="button contact-button" onclick="contact2()">Contact FoodNAI</button>
+                   
+            </div>
+    </div>
+
+    <div class="row footer-element">
+            <div class="col-lg-3">
+                <h4>FoodNAI</h4>
+                <h5><a href="./about-us.html">About US</a></h5>
+                <h5><a href="./privacy.html">Privacy Policy</a></h5>
+                <h5><a href="./terms-conditions.html">Terms and conditions</a></h5>
+                <!-- <h5><a href="./blogs.html">Blogs</a></h5> -->
+                <!-- <h5><a href="./customer-success.html">Customer Success</a></h5> -->
+				<h4>Partners</h4>
+				<img src="./assets/img/foodnai_partnernw.png" style="height:71px;margin:0% 0% 2% 25%; ">
+            </div>
+            <div class="col-lg-3">
+                <h4>Products</h4>
+                <h5><a href="./restaurant-chain.html">Restaurant chains</a></h5>
+                <h5><a href="./restaurant.html">Restaurants</a></h5>
+                <h5><a href="./burger-shop.html">Burger & Sandwich</a></h5>
+                <h5><a href="./school.html">School Universities</a></h5>
+                <h5><a href="./nutrition.html">Nutrition Consultant</a></h5>
+            </div>
+            <div class="col-lg-3">
+                <h4>Features</h4>
+                <h5><a href="./all-feature.html">All Features</a></h5>
+                <h5><a href="./product.html">Products</a></h5>
+                <h5><a href="./why-foodnai.html">Why FoodNAI</a></h5>
+                <h4>Sales Area</h4>
+                <h5><a href="./contact-us.html">Contact</a></h5>
+            </div>
+            <div class="col-lg-3 doc-element">
+                <h4>Documentation</h4>
+                <h5><a href="./user-guide.html">User guide</a></h5>
+                <!-- <h5><a href="./documentation.html">FoodNAI API Documentation</a></h5> -->
+                <h4>Our Social Media Presence</h4>
+                <a onclick="onSocialMedia(this)"><img value="facebook" src="./assets/img/fb.png"></a>
+                <a onclick="onSocialMedia(this)"><img  value="youtube" src="./assets/img/youtube.png"></a>
+                <a onclick="onSocialMedia(this)"><img value="linkedin" src="./assets/img/linkedin.png"></a>
+                <a onclick="onSocialMedia(this)"><img value="twitter" src="./assets/img/twitter.png"></a>
+                <a onclick="onSocialMedia(this)"><img value= "skype"  src="./assets/img/skype.png"></a>
+                <a onclick="onSocialMedia(this)"><img value= "instagram" src="./assets/img/instagram.png"></a>
+            </div>
+        </div>
+    
+        <div class="foodnai-footer text-center" >
+                <h5>Powered by <a href="./index.html">FoodNAI</a>: the leading provider of digital menu and food nutrition technology.
+                        © 2020 FoodNAI</h5>
+        </div>
+
+        <script>
+            jQuery('.mob-menu').click(function(){
+                jQuery('body').toggleClass('open_menu');
+                var bodyCls=jQuery("body").attr("class");
+                if(bodyCls == "open_menu"){
+                   jQuery(".nav-menu").css("opacity",1);
+                   jQuery(".nav-menu").css("display","block");
+                   jQuery(".navbar").css("padding-bottom",215);
+                }
+                else
+                {
+                   jQuery(".nav-menu").css("opacity",0);
+                   jQuery(".nav-menu").css("display","none");
+                   jQuery(".navbar").css("padding-bottom","unset");
+                }
+                
+           });
+       </script>
+       <script>
+        function contact1()
+        {
+            var email=$("#email6").val();
+            $.ajax({
+                type: "POST",
+                url: "send_mail.php",
+                async: false,
+                data: {
+                    email: email
+                },
+                success: function (response) 
+                {
+                    if (response== "success") 
+                    {
+                        alert("Mail send successfully.");
+                    }
+                    else 
+                    {
+                        alert("System out of service, please try after some time.");
+                    }
+                }
+            });
+        }
+        </script>
+        <script>
+            function contact2()
+            {
+                var email=$("#email7").val();
+                $.ajax({
+                    type: "POST",
+                    url: "send_mail.php",
+                    async: false,
+                    data: {
+                        email: email
+                    },
+                    success: function (response) 
+                    {
+                        if (response== "success") 
+                        {
+                            alert("Mail send successfully.");
+                        }
+                        else 
+                        {
+                            alert("System out of service, please try after some time.");
+                        }
+                    }
+                });
+            }
+            </script>
+
+
+
+</body>
+</html>
